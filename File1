@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+# Author ID: kkrathod
+# Student Name: Khushi Rathod
+# Student Number: 121499214
+
+def calculate_age():
+    current_year = 2023  # Assuming the current year is 2023
+
+    # Get input from the user
+    birth_year = int(input("Enter your birth year: "))
+
+    # Calculate the age
+    age = current_year - birth_year
+
+    # Print the age
+    print("Your age is:", age)
+
+
+def helloWorld():
+    print("Hello World")
+
+
+helloWorld()  # Call the helloWorld() function
+
+calculate_age()  # Call the calculate_age() function
