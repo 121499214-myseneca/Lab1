@@ -14,7 +14,9 @@ def calculate_age():
 
     # Print the age
     print("Your age is:", age)
-
+    
+    except TypeError:
+        print("Please enter an int.")
 
 def helloWorld():
     print("Hello World")
